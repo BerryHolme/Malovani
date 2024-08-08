@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout"/>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSoubor">
+    <property name="title">
+     <string>Soubor</string>
+    </property>
+    <addaction name="actionNovy"/>
+    <addaction name="actionOtevrit"/>
+    <addaction name="actionUlo_it"/>
+    <addaction name="separator"/>
+    <addaction name="actionO_Programu"/>
+    <addaction name="actionKonec"/>
+   </widget>
+   <addaction name="menuSoubor"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="tbStyl">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QToolBar" name="tbNastroj">
+   <property name="font">
+    <font>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionCara"/>
+   <addaction name="actionObdelnik"/>
+   <addaction name="actionElipsa"/>
+   <addaction name="actionVypln"/>
+  </widget>
+  <action name="actionNovy">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/Icons/new.png</normaloff>:/Icons/new.png</iconset>
+   </property>
+   <property name="text">
+    <string>Nový</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionOtevrit">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/Icons/open.png</normaloff>:/Icons/open.png</iconset>
+   </property>
+   <property name="text">
+    <string>Otevřít</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionUlo_it">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/Icons/save.png</normaloff>:/Icons/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>Uložit</string>
+   </property>
+  </action>
+  <action name="actionKonec">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/Icons/end.png</normaloff>:/Icons/end.png</iconset>
+   </property>
+   <property name="text">
+    <string>Konec</string>
+   </property>
+  </action>
+  <action name="actionCara">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/Icons/drawLine.png</normaloff>:/Icons/drawLine.png</iconset>
+   </property>
+   <property name="text">
+    <string>Čara</string>
+   </property>
+  </action>
+  <action name="actionObdelnik">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/Icons/drawSquare.png</normaloff>:/Icons/drawSquare.png</iconset>
+   </property>
+   <property name="text">
+    <string>Obdélník</string>
+   </property>
+  </action>
+  <action name="actionElipsa">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/Icons/drawCicle.png</normaloff>:/Icons/drawCicle.png</iconset>
+   </property>
+   <property name="text">
+    <string>Elipsa</string>
+   </property>
+  </action>
+  <action name="actionO_Programu">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/Icons/about.png</normaloff>:/Icons/about.png</iconset>
+   </property>
+   <property name="text">
+    <string>O Programu</string>
+   </property>
+  </action>
+  <action name="actionVypln">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/Icons/fill.png</normaloff>:/Icons/fill.png</iconset>
+   </property>
+   <property name="text">
+    <string>Vypln</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Icons/new.png</file>
+        <file>Icons/open.png</file>
+        <file>Icons/drawCicle.png</file>
+        <file>Icons/drawLine.png</file>
+        <file>Icons/drawSquare.png</file>
+        <file>Icons/end.png</file>
+        <file>Icons/save.png</file>
+        <file>Icons/about.png</file>
+        <file>Icons/CIT_-_kodery_a_dekodery.pdf</file>
+        <file>Icons/CIT_-_kodery_a_dekodery_2.pdf</file>
+        <file>Icons/fill.png</file>
+    </qresource>
+</RCC>
